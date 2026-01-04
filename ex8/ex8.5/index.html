@@ -1,0 +1,57 @@
+<!-- *EX 8.5 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <p class="name-container">
+          <label for="name">Name:</label>
+          <input type="text" placeholder="Your name" />
+        </p>
+        <p class="email-container">
+          <label for="email">Email:</label>
+          <input type="email" placeholder="your@email.com" />
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Message Details</legend>
+
+        <label for="subject">Subject:</label>
+        <select>
+          <option selected>Select subject</option>
+          <option>General Inquiry</option>
+          <option>Feedback / Suggestions</option>
+          <option>Technical Support</option>
+          <option>Billing / Payments</option>
+        </select>
+        <br />
+        <p>Priority:</p>
+        <input type="radio" name="priority" />
+        <label for="low">Low</label>
+        <input type="radio" name="priority" />
+        <label for="high">High</label>
+
+        <p>Message:</p>
+        <textarea rows="4" cols="50" placeholder="Your message..."></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferences</legend>
+        <input type="checkbox" />
+        <label for="checkbox">Subscribe to newsletter</label>
+      </fieldset>
+      <br />
+      <input type="submit" value="Send Message" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>

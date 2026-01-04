@@ -1,0 +1,42 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(197, 204, 208);
+}
+body {
+  background-color: rgb(44, 61, 80);
+}
+
+h1 {
+  color: rgb(242, 156, 18);
+}
+
+h2 {
+  color: rgb(222, 74, 61);
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(222, 74, 61);
+}
+
+h3 {
+  color: rgb(51, 140, 201);
+}
+
+img {
+  border: 2px solid rgb(197, 204, 208);
+  border-radius: 10px;
+}
+
+p strong,
+li strong {
+  color: rgb(217, 180, 27);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(31, 178, 150);
+  font-weight: bold;
+}
+
+ul {
+  background-color: rgb(52, 73, 94);
+  border-radius: 5px;
+}

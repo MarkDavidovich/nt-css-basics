@@ -1,0 +1,29 @@
+body {
+  background-color: wheat;
+}
+
+h1 {
+  text-align: center;
+  color: orangered;
+}
+
+h2 {
+  color: rgb(57, 131, 192);
+  padding-left: 8px;
+  border-left: 4px solid rgb(57, 131, 192);
+  background-color: rgb(163, 219, 241);
+  margin: 0;
+}
+
+p {
+  margin: 5px;
+  color: gray;
+}
+
+ol {
+  background-color: rgb(226, 244, 252);
+}
+
+li strong {
+  color: orangered;
+}
